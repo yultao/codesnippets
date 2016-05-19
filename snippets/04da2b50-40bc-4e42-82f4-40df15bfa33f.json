@@ -1,0 +1,21 @@
+{
+  "uuid": "04da2b50-40bc-4e42-82f4-40df15bfa33f",
+  "name": "timediff",
+  "description": "",
+  "extraSearchTerms": [
+    "timediff 2"
+  ],
+  "tags": [
+    "timediff"
+  ],
+  "code": "long ${start:newName(long)} \u003d System.currentTimeMillis();\r\n${cursor}\r\nlong ${end:newName(long)} \u003d System.currentTimeMillis();\r\nSystem.out.println(\"Time elapsed: \" + (${end} - ${start}));\r\n\r\n",
+  "location": "JAVA_STATEMENTS",
+  "filenameRestrictions": [],
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
+}
