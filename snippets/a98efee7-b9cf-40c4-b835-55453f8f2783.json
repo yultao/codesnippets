@@ -1,0 +1,15 @@
+{
+  "uuid": "a98efee7-b9cf-40c4-b835-55453f8f2783",
+  "name": "ll",
+  "description": "",
+  "extraSearchTerms": [
+    "asdfs"
+  ],
+  "tags": [
+    "asf"
+  ],
+  "code": "XVar ${munged:newName(ukbpa.Xi.XVar)} \u003d new XVar();\r\n${:import(ukbpa.Xi.XVar)}${cursor}\r\n",
+  "location": "JAVA_STATEMENTS",
+  "filenameRestrictions": [],
+  "dependencies": []
+}
